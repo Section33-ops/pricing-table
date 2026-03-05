@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+}
+
+.card {
+  background-color: whitesmoke;
+  /* border: 2px solid black; */
+  width: fit-content;
+  margin: auto;
+  padding: 70px 30px;
+  box-shadow: 5px 5px 20px;
+  transition: transform 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.06);
+}
+
+.plan-name {
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 2px;
+}
+
+.plan-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+ul {
+  font-size: 18px;
+  list-style-type: square;
+  margin-bottom: 50px;
+}
+
+.choose-plan-button {
+  border: none;
+  background-color: rgb(112, 1, 112);
+  color: white;
+  padding: 15px 100px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50px;
+  transition: opacity 0.25s;
+}
+
+.choose-plan-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
