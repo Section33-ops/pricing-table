@@ -18,6 +18,11 @@
   transform: scale(1.06);
 }
 
+.second-card {
+  background-color: rgb(112, 1, 112);
+  color: white;
+}
+
 .plan-name {
   font-weight: bold;
   font-size: 60px;
@@ -48,6 +53,22 @@ ul {
 }
 
 .choose-plan-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.get-started-button {
+  border: none;
+  background-color: white;
+  color: rgb(112, 1, 112);
+  padding: 15px 100px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50px;
+  transition: opacity 0.25s;
+}
+
+.get-started-button:hover {
   cursor: pointer;
   opacity: 0.8;
 }
