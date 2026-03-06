@@ -4,13 +4,22 @@
   font-family: Arial;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   background-color: whitesmoke;
   /* border: 2px solid black; */
-  width: fit-content;
-  margin: auto;
+  width: 300px;
+  /* margin: auto; */
   padding: 70px 30px;
   box-shadow: 5px 5px 20px;
+  border-radius: 10px;
   transition: transform 0.4s;
 }
 
